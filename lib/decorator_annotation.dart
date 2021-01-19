@@ -1,4 +1,4 @@
-library decorator;
+library decorator_annotation;
 
 import 'dart:async';
 
