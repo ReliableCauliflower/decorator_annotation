@@ -55,10 +55,7 @@ class DecoratorClass<T> {
     this.parameters,
     this.forAllWhereAny,
     this.ignoreWhereAny,
-  }) : assert(
-          (wrapper == null && forAllWhereAny == null) || wrapper != null,
-          'forAllWhereAny can only be used with provided wrapper',
-        );
+  });
 }
 
 class Decorator<T> {
